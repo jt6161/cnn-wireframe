@@ -1,0 +1,18 @@
+.main {
+  height: 745px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+}
+
+.head {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+}
+
+img {
+
+}
