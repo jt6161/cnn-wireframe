@@ -7,32 +7,47 @@ body {
   display: block;
 }
 
+.wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .nav {
   height: 60px;
-  width: 100%;
+  width: auto;
   background-color: #0c0c0c;
 }
 
-.container-fluid {
-  width: 100%;
+.reddot {
+  background: red;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+}
+
+.tvborder {
+  border: 1px solid white;
+}
+
+.livetvtext {
+  color: grey;
 }
 
 a {
-  color: white;
-  margin-top: 20px;
+  color: #bfbfbf;
+  margin-bottom: 50px;
 }
 
 .row {
   float: left;
 }
 
+.navspacing {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
 .main {
   height: 745px;
   width: 100%;
-  background-color: white;
-}
-
-.wrapper {
-  width: 90%;
-  margin-left: auto;
 }
