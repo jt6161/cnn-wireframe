@@ -1,17 +1,38 @@
-.main {
-  height: 745px;
+html
+
+body {
+  height: 100%;
   width: 100%;
-  background-color: white;
   margin: 0 auto;
   display: block;
 }
 
-.head {
+.nav {
   height: 60px;
   width: 100%;
-  background-color: black;
+  background-color: #0c0c0c;
 }
 
-img {
+.container-fluid {
+  width: 100%;
+}
+
+a {
+  color: white;
+  margin-top: 20px;
+}
+
+.row {
+  float: left;
+}
+
+.main {
+  height: 745px;
+  width: 100%;
+  background-color: white;
+}
+
+.wrapper {
+  width: 90%;
   margin-left: auto;
 }
