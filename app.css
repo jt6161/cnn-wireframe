@@ -1,7 +1,6 @@
 .main {
   height: 745px;
   width: 100%;
-  border: 1px solid black;
   background-color: white;
   margin: 0 auto;
   display: block;
@@ -14,5 +13,5 @@
 }
 
 img {
-
+  margin-left: auto;
 }
